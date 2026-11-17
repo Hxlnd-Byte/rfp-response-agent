@@ -1,0 +1,74 @@
+[
+  {
+    "code": "THREAT_DETECTION",
+    "label": "Threat detection and response"
+  },
+  {
+    "code": "AI_EXPLAINABILITY",
+    "label": "Explanations for AI decisions"
+  },
+  {
+    "code": "DATA_RESIDENCY",
+    "label": "Data residency and sovereignty"
+  },
+  {
+    "code": "ITSM_INTEGRATION",
+    "label": "Service desk integration"
+  },
+  {
+    "code": "IDENTITY",
+    "label": "Sign-in and access control"
+  },
+  {
+    "code": "REPORTING_COMPLIANCE",
+    "label": "Compliance reporting"
+  },
+  {
+    "code": "AUTOMATION",
+    "label": "Automated patching and remediation"
+  },
+  {
+    "code": "DEPLOYMENT_ONPREM",
+    "label": "Running in the customer's own data centre"
+  },
+  {
+    "code": "SUPPORT_24X7",
+    "label": "Round-the-clock support"
+  },
+  {
+    "code": "IMPLEMENTATION",
+    "label": "Implementation and timeline"
+  },
+  {
+    "code": "TRAINING",
+    "label": "Training and skills"
+  },
+  {
+    "code": "MOBILE",
+    "label": "Mobile app"
+  },
+  {
+    "code": "MEDICAL_DEVICES",
+    "label": "Medical device monitoring"
+  },
+  {
+    "code": "PRICING_MODEL",
+    "label": "Pricing model"
+  },
+  {
+    "code": "REFERENCES",
+    "label": "Customer references"
+  },
+  {
+    "code": "BACKUP_RECOVERY",
+    "label": "Backup and recovery"
+  },
+  {
+    "code": "TOOL_CONSOLIDATION",
+    "label": "Fewer tools, one console"
+  },
+  {
+    "code": "SCALING_GROWTH",
+    "label": "Growth and new sites"
+  }
+]

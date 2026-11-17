@@ -1,0 +1,50 @@
+# A starting point for running the agent on Kubernetes. NOT run or tested: checked for valid YAML only.
+# It expects an "ollama" service in the same namespace (see the ollama.yaml in the other portfolio projects).
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rfp-agent-data
+spec:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 5Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rfp-agent
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: rfp-agent}
+  template:
+    metadata:
+      labels: {app: rfp-agent}
+    spec:
+      containers:
+        - name: app
+          image: <your-registry>/rfp-response-agent:0.1   # replace with the image you pushed
+          env:
+            - name: RFP_HOST
+              value: "0.0.0.0"
+            - name: OLLAMA_URL
+              value: http://ollama:11434
+          ports:
+            - containerPort: 8765
+          volumeMounts:
+            - {name: data, mountPath: /app/data}
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: rfp-agent-data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rfp-agent
+spec:
+  selector: {app: rfp-agent}
+  ports:
+    - port: 8765
+      targetPort: 8765

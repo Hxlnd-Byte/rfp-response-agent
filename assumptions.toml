@@ -1,0 +1,21 @@
+# Inputs for the time-saving model. BENCHMARK = from a published survey. ASSUMPTION = my estimate; replace with your own.
+hours_per_rfp = 33            # BENCHMARK: Loopio and APMP 2026 survey average (see docs/TESTING_AND_RESULTS.md for the source)
+hourly_cost = 75              # ASSUMPTION: loaded cost of one hour of the account team, in US dollars
+setup_hours = 80              # ASSUMPTION: loading the catalogue and past answers, and a first trial
+upkeep_hours_per_year = 60    # ASSUMPTION: keeping the catalogue and library current
+review_hours_per_year = 16    # ASSUMPTION: two six-month reviews of a day each
+
+[low]
+rfps_per_year = 20            # ASSUMPTION
+share_of_hours_spent_drafting = 0.30   # ASSUMPTION: part of the 33 hours that is finding and writing first-draft answers
+share_of_drafting_saved = 0.40         # ASSUMPTION: after the team's review time is taken off
+
+[base]
+rfps_per_year = 40
+share_of_hours_spent_drafting = 0.40
+share_of_drafting_saved = 0.55
+
+[high]
+rfps_per_year = 80
+share_of_hours_spent_drafting = 0.50
+share_of_drafting_saved = 0.70

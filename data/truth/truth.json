@@ -1,0 +1,290 @@
+{
+  "requirements": [
+    {
+      "id": "R-01",
+      "category": "THREAT_DETECTION",
+      "fit": "STRONG",
+      "capability": "C-01"
+    },
+    {
+      "id": "R-02",
+      "category": "AI_EXPLAINABILITY",
+      "fit": "STRONG",
+      "capability": "C-03"
+    },
+    {
+      "id": "R-03",
+      "category": "DATA_RESIDENCY",
+      "fit": "STRONG",
+      "capability": "C-04"
+    },
+    {
+      "id": "R-04",
+      "category": "DEPLOYMENT_ONPREM",
+      "fit": "STRONG",
+      "capability": "C-10"
+    },
+    {
+      "id": "R-05",
+      "category": "ITSM_INTEGRATION",
+      "fit": "STRONG",
+      "capability": "C-05"
+    },
+    {
+      "id": "R-06",
+      "category": "ITSM_INTEGRATION",
+      "fit": "PARTIAL",
+      "capability": "C-06"
+    },
+    {
+      "id": "R-07",
+      "category": "IDENTITY",
+      "fit": "STRONG",
+      "capability": "C-07"
+    },
+    {
+      "id": "R-08",
+      "category": "REPORTING_COMPLIANCE",
+      "fit": "PARTIAL",
+      "capability": "C-08"
+    },
+    {
+      "id": "R-09",
+      "category": "AUTOMATION",
+      "fit": "STRONG",
+      "capability": "C-09"
+    },
+    {
+      "id": "R-10",
+      "category": "MEDICAL_DEVICES",
+      "fit": "GAP",
+      "capability": "C-15"
+    },
+    {
+      "id": "R-11",
+      "category": "MOBILE",
+      "fit": "GAP",
+      "capability": "C-14"
+    },
+    {
+      "id": "R-12",
+      "category": "BACKUP_RECOVERY",
+      "fit": "GAP",
+      "capability": "C-18"
+    },
+    {
+      "id": "R-13",
+      "category": "SUPPORT_24X7",
+      "fit": "STRONG",
+      "capability": "C-11"
+    },
+    {
+      "id": "R-14",
+      "category": "IMPLEMENTATION",
+      "fit": "STRONG",
+      "capability": "C-12"
+    },
+    {
+      "id": "R-15",
+      "category": "TRAINING",
+      "fit": "STRONG",
+      "capability": "C-13"
+    },
+    {
+      "id": "R-16",
+      "category": "PRICING_MODEL",
+      "fit": "STRONG",
+      "capability": "C-16"
+    },
+    {
+      "id": "R-17",
+      "category": "REFERENCES",
+      "fit": "PARTIAL",
+      "capability": "C-17"
+    },
+    {
+      "id": "R-18",
+      "category": "THREAT_DETECTION",
+      "fit": "STRONG",
+      "capability": "C-02"
+    }
+  ],
+  "claims": [
+    {
+      "entity": "Norvane Systems",
+      "category": "MEDICAL_DEVICES",
+      "stance": "strength",
+      "quote": "discovers and monitors connected medical devices out of the box",
+      "source": "W-01"
+    },
+    {
+      "entity": "Norvane Systems",
+      "category": "MOBILE",
+      "stance": "strength",
+      "quote": "mobile app lets on-call staff approve actions from their phone",
+      "source": "W-01"
+    },
+    {
+      "entity": "Norvane Systems",
+      "category": "REFERENCES",
+      "stance": "strength",
+      "quote": "serves more than 60 hospital groups",
+      "source": "W-01"
+    },
+    {
+      "entity": "Norvane Systems",
+      "category": "DATA_RESIDENCY",
+      "stance": "weakness",
+      "quote": "customers elsewhere have their security data processed outside their own country",
+      "source": "W-02"
+    },
+    {
+      "entity": "Norvane Systems",
+      "category": "AI_EXPLAINABILITY",
+      "stance": "weakness",
+      "quote": "alerts arrive with a score but no reasoning",
+      "source": "W-03"
+    },
+    {
+      "entity": "Norvane Systems",
+      "category": "PRICING_MODEL",
+      "stance": "weakness",
+      "quote": "charges based on data volume that were hard to predict",
+      "source": "W-03"
+    },
+    {
+      "entity": "Kestrelline Cloud",
+      "category": "DEPLOYMENT_ONPREM",
+      "stance": "weakness",
+      "quote": "cloud-only by design",
+      "source": "W-04"
+    },
+    {
+      "entity": "Kestrelline Cloud",
+      "category": "PRICING_MODEL",
+      "stance": "strength",
+      "quote": "Plans start at a low flat fee per user",
+      "source": "W-04"
+    },
+    {
+      "entity": "Kestrelline Cloud",
+      "category": "IMPLEMENTATION",
+      "stance": "strength",
+      "quote": "most customers are live within four weeks",
+      "source": "W-04"
+    },
+    {
+      "entity": "Kestrelline Cloud",
+      "category": "SUPPORT_24X7",
+      "stance": "weakness",
+      "quote": "Support is available during business hours, Monday to Friday",
+      "source": "W-04"
+    },
+    {
+      "entity": "Kestrelline Cloud",
+      "category": "SUPPORT_24X7",
+      "stance": "weakness",
+      "quote": "lost access to their dashboards for nine hours",
+      "source": "W-05"
+    },
+    {
+      "entity": "Kestrelline Cloud",
+      "category": "DATA_RESIDENCY",
+      "stance": "weakness",
+      "quote": "does not offer a choice of country",
+      "source": "W-06"
+    },
+    {
+      "entity": "Ironvale Security",
+      "category": "THREAT_DETECTION",
+      "stance": "strength",
+      "quote": "rated highly by independent testers",
+      "source": "W-07"
+    },
+    {
+      "entity": "Ironvale Security",
+      "category": "REPORTING_COMPLIANCE",
+      "stance": "strength",
+      "quote": "ready-made compliance report templates for healthcare regulators",
+      "source": "W-07"
+    },
+    {
+      "entity": "Ironvale Security",
+      "category": "DEPLOYMENT_ONPREM",
+      "stance": "strength",
+      "quote": "can be deployed in the customer's own data centre",
+      "source": "W-07"
+    },
+    {
+      "entity": "Ironvale Security",
+      "category": "AUTOMATION",
+      "stance": "weakness",
+      "quote": "no patching or remediation of its own",
+      "source": "W-08"
+    },
+    {
+      "entity": "Ironvale Security",
+      "category": "ITSM_INTEGRATION",
+      "stance": "weakness",
+      "quote": "does not open tickets in a service desk without custom scripting",
+      "source": "W-08"
+    },
+    {
+      "entity": "Ironvale Security",
+      "category": "TRAINING",
+      "stance": "weakness",
+      "quote": "Training is sold separately at a daily rate",
+      "source": "W-08"
+    }
+  ],
+  "priorities": [
+    {
+      "category": "DATA_RESIDENCY",
+      "quote": "Patient data stays in this country, and that is not negotiable",
+      "source": "W-09",
+      "role": "Chief Information Officer"
+    },
+    {
+      "category": "TOOL_CONSOLIDATION",
+      "quote": "reducing the number of security and management tools from fourteen to no more than five",
+      "source": "W-09",
+      "role": "Company strategy"
+    },
+    {
+      "category": "TRAINING",
+      "quote": "I cannot hire my way out of this",
+      "source": "W-10",
+      "role": "Chief Information Officer"
+    },
+    {
+      "category": "AI_EXPLAINABILITY",
+      "quote": "I will not buy another black box that my analysts cannot question",
+      "source": "W-10",
+      "role": "Chief Information Officer"
+    },
+    {
+      "category": "SCALING_GROWTH",
+      "quote": "will open two new clinics in 2027",
+      "source": "W-11",
+      "role": "Annual report"
+    },
+    {
+      "category": "PRICING_MODEL",
+      "quote": "hold operating costs flat while the Network grows",
+      "source": "W-11",
+      "role": "Board, in the annual report"
+    },
+    {
+      "category": "ITSM_INTEGRATION",
+      "quote": "hiring a ServiceNow administrator",
+      "source": "W-12",
+      "role": "Job advert"
+    },
+    {
+      "category": "BACKUP_RECOVERY",
+      "quote": "proof that critical systems can be recovered within four hours",
+      "source": "W-13",
+      "role": "Board, reported by the press"
+    }
+  ]
+}

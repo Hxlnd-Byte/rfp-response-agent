@@ -1,0 +1,119 @@
+[
+  {
+    "id": "W-01",
+    "entity": "Norvane Systems",
+    "kind": "vendor_page",
+    "date": "2026-08-12",
+    "url": "https://norvane.example/products/clinical-shield",
+    "title": "Norvane Clinical Shield",
+    "text": "Norvane Clinical Shield discovers and monitors connected medical devices out of the box, with profiles for more than 400 device types. The Norvane mobile app lets on-call staff approve actions from their phone. Norvane serves more than 60 hospital groups."
+  },
+  {
+    "id": "W-02",
+    "entity": "Norvane Systems",
+    "kind": "news",
+    "date": "2026-06-03",
+    "url": "https://techledger.example/norvane-analysis-regions",
+    "title": "Norvane confirms where its AI analysis runs",
+    "text": "Norvane confirmed that its AI analysis service runs in two shared cloud regions, and that customers elsewhere have their security data processed outside their own country. An in-country option is planned but has no date."
+  },
+  {
+    "id": "W-03",
+    "entity": "Norvane Systems",
+    "kind": "review",
+    "date": "2026-09-20",
+    "url": "https://peerbench.example/reviews/norvane",
+    "title": "Norvane: what users say",
+    "text": "Analysts told us the alerts arrive with a score but no reasoning. 'It is a black box,' said one security lead. Several reviewers also complained about charges based on data volume that were hard to predict."
+  },
+  {
+    "id": "W-04",
+    "entity": "Kestrelline Cloud",
+    "kind": "vendor_page",
+    "date": "2026-10-01",
+    "url": "https://kestrelline.example/pricing",
+    "title": "Kestrelline pricing and plans",
+    "text": "Kestrelline is cloud-only by design. There is nothing to install in your data centre. Plans start at a low flat fee per user, and most customers are live within four weeks. Support is available during business hours, Monday to Friday."
+  },
+  {
+    "id": "W-05",
+    "entity": "Kestrelline Cloud",
+    "kind": "news",
+    "date": "2026-07-18",
+    "url": "https://techledger.example/kestrelline-outage",
+    "title": "Kestrelline dashboards down for most of a day",
+    "text": "Kestrelline customers lost access to their dashboards for nine hours on Tuesday after a failed update. The company apologised and promised a review."
+  },
+  {
+    "id": "W-06",
+    "entity": "Kestrelline Cloud",
+    "kind": "news",
+    "date": "2026-05-22",
+    "url": "https://techledger.example/kestrelline-data-location",
+    "title": "Where does Kestrelline keep your data?",
+    "text": "Asked about data location, Kestrelline said it stores customer data in its global cloud and does not offer a choice of country."
+  },
+  {
+    "id": "W-07",
+    "entity": "Ironvale Security",
+    "kind": "vendor_page",
+    "date": "2026-09-05",
+    "url": "https://ironvale.example/platform",
+    "title": "The Ironvale platform",
+    "text": "Ironvale's detection engine is rated highly by independent testers and is tuned by a dedicated research team. Ironvale ships ready-made compliance report templates for healthcare regulators. Ironvale can be deployed in the customer's own data centre."
+  },
+  {
+    "id": "W-08",
+    "entity": "Ironvale Security",
+    "kind": "review",
+    "date": "2026-08-28",
+    "url": "https://peerbench.example/reviews/ironvale",
+    "title": "Ironvale: what users say",
+    "text": "Ironvale is a security product only. It has no patching or remediation of its own, and it does not open tickets in a service desk without custom scripting. Training is sold separately at a daily rate."
+  },
+  {
+    "id": "W-09",
+    "entity": "Brackenfield Health Network",
+    "kind": "press_release",
+    "date": "2026-09-15",
+    "url": "https://brackenfield.example/news/digital-strategy",
+    "title": "Brackenfield publishes three-year digital strategy",
+    "text": "Brackenfield Health Network today published its three-year digital strategy. 'Patient data stays in this country, and that is not negotiable,' said the Chief Information Officer. The strategy also commits to reducing the number of security and management tools from fourteen to no more than five."
+  },
+  {
+    "id": "W-10",
+    "entity": "Brackenfield Health Network",
+    "kind": "conference_talk",
+    "date": "2026-10-08",
+    "url": "https://healthtechforum.example/sessions/brackenfield-cio",
+    "title": "Health Tech Forum: running security with a small team",
+    "text": "Speaking at the Health Tech Forum, Brackenfield's Chief Information Officer said the security team has six people covering every site. 'I cannot hire my way out of this. And I will not buy another black box that my analysts cannot question,' she said."
+  },
+  {
+    "id": "W-11",
+    "entity": "Brackenfield Health Network",
+    "kind": "annual_report",
+    "date": "2026-04-30",
+    "url": "https://brackenfield.example/reports/annual-2025",
+    "title": "Brackenfield Health Network annual report",
+    "text": "The Network will open two new clinics in 2027. The Board has asked every department to hold operating costs flat while the Network grows."
+  },
+  {
+    "id": "W-12",
+    "entity": "Brackenfield Health Network",
+    "kind": "job_advert",
+    "date": "2026-10-20",
+    "url": "https://brackenfield.example/careers/servicenow-administrator",
+    "title": "Careers: ServiceNow administrator",
+    "text": "Brackenfield Health Network is hiring a ServiceNow administrator to run its service desk platform across all sites."
+  },
+  {
+    "id": "W-13",
+    "entity": "Brackenfield Health Network",
+    "kind": "news",
+    "date": "2026-03-11",
+    "url": "https://regionalhealthnews.example/brackenfield-supplier-incident",
+    "title": "Brackenfield reviews recovery plans after supplier incident",
+    "text": "After a ransomware incident at one of its suppliers last year, Brackenfield's Board asked for proof that critical systems can be recovered within four hours."
+  }
+]

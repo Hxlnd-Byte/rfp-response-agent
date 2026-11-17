@@ -1,0 +1,53 @@
+REQUEST FOR PROPOSAL
+
+RFP reference: RFP-2026-014
+Issued by: Brackenfield Health Network
+Response due: 2026-12-18
+
+1. Background
+
+Brackenfield Health Network runs hospitals and clinics with about 2,100 staff. We are looking for a security and IT management solution to protect and run our systems.
+
+2. Requirements
+
+Vendors must answer every numbered requirement and say plainly where a requirement is not met.
+
+R-01 The solution shall detect and respond to threats across endpoints, servers and cloud workloads, and help analysts triage alerts.
+
+R-02 Every automated alert or block made by an AI model must come with a plain-language explanation that an analyst can review.
+
+R-03 All patient-related and security data must be stored and processed inside the country. Describe where data and AI processing take place.
+
+R-04 The vendor shall describe options to run the solution, including its AI models, in the customer's own data centre.
+
+R-05 The solution must create and update tickets in the customer's existing service desk tool, ServiceNow.
+
+R-06 Describe how other service desk and collaboration tools can be connected through an open interface.
+
+R-07 The solution shall support single sign-on and role-based access control.
+
+R-08 Provide compliance report templates, including templates suited to healthcare regulation.
+
+R-09 Describe automated patching and remediation, and how human approval is kept for high-risk changes.
+
+R-10 The solution should discover and monitor connected medical devices.
+
+R-11 Provide a mobile app for on-call staff to review and approve actions.
+
+R-12 Describe backup and recovery capabilities, including tested recovery times.
+
+R-13 The vendor shall provide support 24 hours a day, 7 days a week, with stated response targets for critical incidents.
+
+R-14 Provide an implementation plan and timeline to reach full operation.
+
+R-15 Describe the training provided for administrators and analysts.
+
+R-16 Describe the pricing model and any charges based on data volume.
+
+R-17 Provide three customer references, at least two of them in healthcare.
+
+R-18 Describe how detection models are updated and how false alarms are reduced over time.
+
+3. Submission
+
+Responses must be received by the due date. Late responses will not be considered.

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "C-01",
+    "product": "Vantora Sentry",
+    "category": "THREAT_DETECTION",
+    "status": "available",
+    "text": "Vantora Sentry detects and responds to threats across endpoints, servers and cloud workloads using behavioural models, and groups related alerts so an analyst can triage them in one view.",
+    "note": ""
+  },
+  {
+    "id": "C-02",
+    "product": "Vantora Sentry",
+    "category": "THREAT_DETECTION",
+    "status": "available",
+    "text": "Sentry detection models are updated monthly, and analyst feedback on each alert is used to reduce false alarms over time.",
+    "note": ""
+  },
+  {
+    "id": "C-03",
+    "product": "Vantora Sentry",
+    "category": "AI_EXPLAINABILITY",
+    "status": "available",
+    "text": "Every automated alert or block in Sentry comes with a plain-language explanation and the evidence behind it, which an analyst can review and overrule.",
+    "note": ""
+  },
+  {
+    "id": "C-04",
+    "product": "Vantora Sentry and Conductor",
+    "category": "DATA_RESIDENCY",
+    "status": "available",
+    "text": "All data and all AI processing can stay inside the customer's country, either in the customer's own data centre or in an in-country cloud region.",
+    "note": ""
+  },
+  {
+    "id": "C-05",
+    "product": "Vantora Conductor",
+    "category": "ITSM_INTEGRATION",
+    "status": "available",
+    "text": "Conductor creates and updates tickets in ServiceNow and Jira Service Management through supported connectors.",
+    "note": ""
+  },
+  {
+    "id": "C-06",
+    "product": "Vantora Conductor",
+    "category": "ITSM_INTEGRATION",
+    "status": "partial",
+    "text": "Other service desk and collaboration tools can be connected through an open interface.",
+    "note": "This needs integration work during the project; it is not a ready-made connector."
+  },
+  {
+    "id": "C-07",
+    "product": "Vantora Sentry and Conductor",
+    "category": "IDENTITY",
+    "status": "available",
+    "text": "Both products support single sign-on and role-based access control.",
+    "note": ""
+  },
+  {
+    "id": "C-08",
+    "product": "Vantora Sentry",
+    "category": "REPORTING_COMPLIANCE",
+    "status": "partial",
+    "text": "Sentry includes compliance report templates for common security standards.",
+    "note": "Templates specific to healthcare regulation are on the roadmap and are not available today."
+  },
+  {
+    "id": "C-09",
+    "product": "Vantora Conductor",
+    "category": "AUTOMATION",
+    "status": "available",
+    "text": "Conductor automates patching and remediation, and keeps a human approval step for any change marked high-risk.",
+    "note": ""
+  },
+  {
+    "id": "C-10",
+    "product": "Vantora Sentry and Conductor",
+    "category": "DEPLOYMENT_ONPREM",
+    "status": "available",
+    "text": "Both products, including their AI models, can run entirely in the customer's own data centre, with no connection to an outside service.",
+    "note": ""
+  },
+  {
+    "id": "C-11",
+    "product": "Vantora Assure",
+    "category": "SUPPORT_24X7",
+    "status": "available",
+    "text": "Vantora Assure provides support 24 hours a day, 7 days a week, with a 30 minute response target for critical incidents.",
+    "note": ""
+  },
+  {
+    "id": "C-12",
+    "product": "Vantora Launch",
+    "category": "IMPLEMENTATION",
+    "status": "available",
+    "text": "Vantora Launch is a fixed-scope implementation service that reaches full operation in 12 weeks, in three stages.",
+    "note": ""
+  },
+  {
+    "id": "C-13",
+    "product": "Vantora Academy",
+    "category": "TRAINING",
+    "status": "available",
+    "text": "Vantora Academy trains administrators and analysts, with hands-on labs and a certification, included in the subscription.",
+    "note": ""
+  },
+  {
+    "id": "C-14",
+    "product": "Vantora Conductor",
+    "category": "MOBILE",
+    "status": "roadmap",
+    "text": "A mobile app for approvals is planned.",
+    "note": "Today, on-call staff use the web console on a phone browser. There is no mobile app."
+  },
+  {
+    "id": "C-15",
+    "product": "Vantora Sentry",
+    "category": "MEDICAL_DEVICES",
+    "status": "not_offered",
+    "text": "Sentry does not discover or monitor medical devices itself.",
+    "note": "It can take in a feed from a specialist medical device tool chosen by the customer."
+  },
+  {
+    "id": "C-16",
+    "product": "Vantora Sentry and Conductor",
+    "category": "PRICING_MODEL",
+    "status": "available",
+    "text": "Pricing is a subscription per device, with no charges based on data volume.",
+    "note": ""
+  },
+  {
+    "id": "C-17",
+    "product": "Vantora Software",
+    "category": "REFERENCES",
+    "status": "partial",
+    "text": "Vantora can provide customer references in finance, government and education.",
+    "note": "Only one healthcare reference is available today."
+  },
+  {
+    "id": "C-18",
+    "product": "Vantora Sentry",
+    "category": "BACKUP_RECOVERY",
+    "status": "not_offered",
+    "text": "Vantora does not provide backup and recovery.",
+    "note": "Sentry and Conductor work alongside the customer's backup tool and can trigger its recovery steps."
+  },
+  {
+    "id": "C-19",
+    "product": "Vantora Sentry and Conductor",
+    "category": "TOOL_CONSOLIDATION",
+    "status": "available",
+    "text": "Sentry and Conductor share one console and one software agent, so security and management run from a single place.",
+    "note": ""
+  },
+  {
+    "id": "C-20",
+    "product": "Vantora Sentry and Conductor",
+    "category": "SCALING_GROWTH",
+    "status": "available",
+    "text": "Per-device pricing bands are agreed up front, so new sites can be added at a known price.",
+    "note": ""
+  }
+]

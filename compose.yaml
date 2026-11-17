@@ -1,0 +1,35 @@
+# Start everything:        docker compose up -d
+# Download the model once: docker compose exec ollama ollama pull qwen2.5:7b
+# Then open:               http://localhost:8765
+# Live web search too:     docker compose --profile web up -d   (and set mode = "searxng" in config.toml)
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama-models:/root/.ollama      # keeps the model between runs
+    deploy:
+      resources:
+        reservations:
+          devices:                       # gives the container your NVIDIA graphics card; delete this block to run on the processor
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+  app:
+    build: .
+    depends_on: [ollama]
+    ports:
+      - "127.0.0.1:8765:8765"            # reachable from this computer only
+    environment:
+      OLLAMA_URL: http://ollama:11434
+    volumes:
+      - ./data:/app/data                 # catalogue, library and RFPs stay in folders on your computer
+      - ./outbox:/app/outbox
+      - ./output:/app/output
+      - ./config.toml:/app/config.toml:ro
+  searxng:                               # open-source search, only started when you ask for it
+    image: searxng/searxng:latest
+    profiles: ["web"]
+    ports:
+      - "127.0.0.1:8888:8080"
+volumes:
+  ollama-models:

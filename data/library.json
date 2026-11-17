@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "learned_packs": [],
+  "bids": [
+    {
+      "bid": "B-2025-03",
+      "customer": "Harrowgate Mutual Bank",
+      "industry": "Finance",
+      "date": "2025-03-20",
+      "outcome": "won"
+    },
+    {
+      "bid": "B-2025-06",
+      "customer": "Port Sellwyn Authority",
+      "industry": "Government",
+      "date": "2025-06-12",
+      "outcome": "lost"
+    },
+    {
+      "bid": "B-2025-09",
+      "customer": "Orchard Vale Hospitals",
+      "industry": "Healthcare",
+      "date": "2025-09-04",
+      "outcome": "won"
+    },
+    {
+      "bid": "B-2025-11",
+      "customer": "Calderbrook Energy",
+      "industry": "Energy",
+      "date": "2025-11-27",
+      "outcome": "lost"
+    },
+    {
+      "bid": "B-2026-02",
+      "customer": "Linmere University",
+      "industry": "Education",
+      "date": "2026-02-18",
+      "outcome": "won"
+    },
+    {
+      "bid": "B-2026-05",
+      "customer": "Westmarch Logistics",
+      "industry": "Logistics",
+      "date": "2026-05-08",
+      "outcome": "lost"
+    }
+  ],
+  "answers": [
+    {
+      "id": "L-001",
+      "bid": "B-2025-03",
+      "category": "THREAT_DETECTION",
+      "question": "How does the solution detect and respond to threats, and how are detection models kept up to date?",
+      "answer": "Sentry watches endpoints, servers and cloud workloads and groups related alerts into a single case, so analysts triage one story and not a list. Models are updated monthly and learn from analyst feedback, which reduces false alarms over time. For Harrowgate Mutual Bank we tuned the first models during the pilot."
+    },
+    {
+      "id": "L-002",
+      "bid": "B-2025-03",
+      "category": "DATA_RESIDENCY",
+      "question": "Where is data stored and processed?",
+      "answer": "Data and AI processing stay inside the customer's country, in the customer's data centre or an in-country cloud region. No security data is sent to another country for analysis."
+    },
+    {
+      "id": "L-003",
+      "bid": "B-2025-03",
+      "category": "IDENTITY",
+      "question": "How are sign-in and access controlled?",
+      "answer": "Both products support single sign-on and role-based access control, so each person sees only what their role allows."
+    },
+    {
+      "id": "L-004",
+      "bid": "B-2025-03",
+      "category": "REPORTING_COMPLIANCE",
+      "question": "What compliance reporting is provided?",
+      "answer": "Sentry includes report templates for common security standards, and reports can be scheduled. Sector-specific templates are added over time; where a template is not yet available we say so and agree a plan."
+    },
+    {
+      "id": "L-005",
+      "bid": "B-2025-03",
+      "category": "SUPPORT_24X7",
+      "question": "What support is provided?",
+      "answer": "Vantora Assure provides support 24 hours a day, 7 days a week, with a 30 minute response target for critical incidents and a named service manager."
+    },
+    {
+      "id": "L-006",
+      "bid": "B-2025-03",
+      "category": "PRICING_MODEL",
+      "question": "How is the solution priced?",
+      "answer": "Pricing is a subscription per device. There are no charges based on data volume, so the cost does not rise when more data is collected."
+    },
+    {
+      "id": "L-007",
+      "bid": "B-2025-03",
+      "category": "DEPLOYMENT_ONPREM",
+      "question": "Can the solution run in our own data centre?",
+      "answer": "Yes. Both products and their AI models can run entirely in the customer's data centre with no connection to an outside service. Harrowgate Mutual Bank runs this way."
+    },
+    {
+      "id": "L-008",
+      "bid": "B-2025-03",
+      "category": "AI_EXPLAINABILITY",
+      "question": "How are AI decisions explained to analysts?",
+      "answer": "Each alert or block carries a plain-language explanation and the evidence behind it. An analyst can review the reasoning, overrule the decision, and that correction is recorded. Harrowgate Mutual Bank asked for this in their review board and it was shown live."
+    },
+    {
+      "id": "L-009",
+      "bid": "B-2025-06",
+      "category": "THREAT_DETECTION",
+      "question": "How does the solution detect and respond to threats, and how are detection models kept up to date?",
+      "answer": "Sentry watches endpoints, servers and cloud workloads and groups related alerts into a single case, so analysts triage one story and not a list. Models are updated monthly and learn from analyst feedback, which reduces false alarms over time. For Port Sellwyn Authority we tuned the first models during the pilot."
+    },
+    {
+      "id": "L-010",
+      "bid": "B-2025-06",
+      "category": "ITSM_INTEGRATION",
+      "question": "How does the solution integrate with the service desk?",
+      "answer": "Conductor creates and updates tickets in ServiceNow and Jira Service Management through supported connectors. Other service desk tools can be connected through an open interface, which needs integration work in the project. Port Sellwyn Authority used the ServiceNow connector from the first stage."
+    },
+    {
+      "id": "L-011",
+      "bid": "B-2025-06",
+      "category": "AUTOMATION",
+      "question": "How are patching and remediation automated?",
+      "answer": "Conductor patches and remediates automatically within rules the customer sets. Any change marked high-risk waits for a named person to approve it, and every action is logged."
+    },
+    {
+      "id": "L-012",
+      "bid": "B-2025-06",
+      "category": "IMPLEMENTATION",
+      "question": "What is the implementation plan?",
+      "answer": "Vantora Launch is a fixed-scope service that reaches full operation in 12 weeks in three stages: prepare, pilot and roll out. Each stage ends with a review the customer signs off."
+    },
+    {
+      "id": "L-013",
+      "bid": "B-2025-06",
+      "category": "REFERENCES",
+      "question": "Which customer references can you provide?",
+      "answer": "We provide references in the customer's sector where we have them, and say where we do not. References are arranged as calls with people in a similar role."
+    },
+    {
+      "id": "L-014",
+      "bid": "B-2025-06",
+      "category": "MOBILE",
+      "question": "Is there a mobile app?",
+      "answer": "There is no mobile app today. On-call staff use the web console in a phone browser. A mobile app for approvals is planned, and we do not commit to a date in a proposal."
+    },
+    {
+      "id": "L-015",
+      "bid": "B-2025-06",
+      "category": "TRAINING",
+      "question": "What training is provided?",
+      "answer": "Vantora Academy trains administrators and analysts with hands-on labs and a certification. Training is included in the subscription, so new team members can be trained at no extra charge."
+    },
+    {
+      "id": "L-016",
+      "bid": "B-2025-09",
+      "category": "THREAT_DETECTION",
+      "question": "How does the solution detect and respond to threats, and how are detection models kept up to date?",
+      "answer": "Sentry watches endpoints, servers and cloud workloads and groups related alerts into a single case, so analysts triage one story and not a list. Models are updated monthly and learn from analyst feedback, which reduces false alarms over time. For Orchard Vale Hospitals we tuned the first models during the pilot."
+    },
+    {
+      "id": "L-017",
+      "bid": "B-2025-09",
+      "category": "AI_EXPLAINABILITY",
+      "question": "How are AI decisions explained to analysts?",
+      "answer": "Each alert or block carries a plain-language explanation and the evidence behind it. An analyst can review the reasoning, overrule the decision, and that correction is recorded. Orchard Vale Hospitals asked for this in their review board and it was shown live."
+    },
+    {
+      "id": "L-018",
+      "bid": "B-2025-09",
+      "category": "DATA_RESIDENCY",
+      "question": "Where is data stored and processed?",
+      "answer": "Data and AI processing stay inside the customer's country, in the customer's data centre or an in-country cloud region. No security data is sent to another country for analysis."
+    },
+    {
+      "id": "L-019",
+      "bid": "B-2025-09",
+      "category": "MEDICAL_DEVICES",
+      "question": "Does the solution monitor medical devices?",
+      "answer": "Sentry does not discover or monitor medical devices itself. It can take in a feed from a specialist medical device tool, so those alerts appear alongside the rest. We told Orchard Vale Hospitals this plainly and proposed a partner."
+    },
+    {
+      "id": "L-020",
+      "bid": "B-2025-09",
+      "category": "ITSM_INTEGRATION",
+      "question": "How does the solution integrate with the service desk?",
+      "answer": "Conductor creates and updates tickets in ServiceNow and Jira Service Management through supported connectors. Other service desk tools can be connected through an open interface, which needs integration work in the project. Orchard Vale Hospitals used the ServiceNow connector from the first stage."
+    },
+    {
+      "id": "L-021",
+      "bid": "B-2025-09",
+      "category": "SUPPORT_24X7",
+      "question": "What support is provided?",
+      "answer": "Vantora Assure provides support 24 hours a day, 7 days a week, with a 30 minute response target for critical incidents and a named service manager."
+    },
+    {
+      "id": "L-022",
+      "bid": "B-2025-09",
+      "category": "TRAINING",
+      "question": "What training is provided?",
+      "answer": "Vantora Academy trains administrators and analysts with hands-on labs and a certification. Training is included in the subscription, so new team members can be trained at no extra charge."
+    },
+    {
+      "id": "L-023",
+      "bid": "B-2025-09",
+      "category": "REFERENCES",
+      "question": "Which customer references can you provide?",
+      "answer": "We provide references in the customer's sector where we have them, and say where we do not. References are arranged as calls with people in a similar role."
+    },
+    {
+      "id": "L-024",
+      "bid": "B-2025-09",
+      "category": "BACKUP_RECOVERY",
+      "question": "What backup and recovery is provided?",
+      "answer": "Vantora does not provide backup and recovery. Our products work alongside the customer's backup tool and can trigger its recovery steps as part of a response."
+    },
+    {
+      "id": "L-025",
+      "bid": "B-2025-11",
+      "category": "AUTOMATION",
+      "question": "How are patching and remediation automated?",
+      "answer": "Conductor patches and remediates automatically within rules the customer sets. Any change marked high-risk waits for a named person to approve it, and every action is logged."
+    },
+    {
+      "id": "L-026",
+      "bid": "B-2025-11",
+      "category": "DEPLOYMENT_ONPREM",
+      "question": "Can the solution run in our own data centre?",
+      "answer": "Yes. Both products and their AI models can run entirely in the customer's data centre with no connection to an outside service. Calderbrook Energy runs this way."
+    },
+    {
+      "id": "L-027",
+      "bid": "B-2025-11",
+      "category": "PRICING_MODEL",
+      "question": "How is the solution priced?",
+      "answer": "Pricing is a subscription per device. There are no charges based on data volume, so the cost does not rise when more data is collected."
+    },
+    {
+      "id": "L-028",
+      "bid": "B-2025-11",
+      "category": "IMPLEMENTATION",
+      "question": "What is the implementation plan?",
+      "answer": "Vantora Launch is a fixed-scope service that reaches full operation in 12 weeks in three stages: prepare, pilot and roll out. Each stage ends with a review the customer signs off."
+    },
+    {
+      "id": "L-029",
+      "bid": "B-2025-11",
+      "category": "BACKUP_RECOVERY",
+      "question": "What backup and recovery is provided?",
+      "answer": "Vantora does not provide backup and recovery. Our products work alongside the customer's backup tool and can trigger its recovery steps as part of a response."
+    },
+    {
+      "id": "L-030",
+      "bid": "B-2025-11",
+      "category": "IDENTITY",
+      "question": "How are sign-in and access controlled?",
+      "answer": "Both products support single sign-on and role-based access control, so each person sees only what their role allows."
+    },
+    {
+      "id": "L-031",
+      "bid": "B-2026-02",
+      "category": "AI_EXPLAINABILITY",
+      "question": "How are AI decisions explained to analysts?",
+      "answer": "Each alert or block carries a plain-language explanation and the evidence behind it. An analyst can review the reasoning, overrule the decision, and that correction is recorded. Linmere University asked for this in their review board and it was shown live."
+    },
+    {
+      "id": "L-032",
+      "bid": "B-2026-02",
+      "category": "ITSM_INTEGRATION",
+      "question": "How does the solution integrate with the service desk?",
+      "answer": "Conductor creates and updates tickets in ServiceNow and Jira Service Management through supported connectors. Other service desk tools can be connected through an open interface, which needs integration work in the project. Linmere University used the ServiceNow connector from the first stage."
+    },
+    {
+      "id": "L-033",
+      "bid": "B-2026-02",
+      "category": "TRAINING",
+      "question": "What training is provided?",
+      "answer": "Vantora Academy trains administrators and analysts with hands-on labs and a certification. Training is included in the subscription, so new team members can be trained at no extra charge."
+    },
+    {
+      "id": "L-034",
+      "bid": "B-2026-02",
+      "category": "PRICING_MODEL",
+      "question": "How is the solution priced?",
+      "answer": "Pricing is a subscription per device. There are no charges based on data volume, so the cost does not rise when more data is collected."
+    },
+    {
+      "id": "L-035",
+      "bid": "B-2026-02",
+      "category": "TOOL_CONSOLIDATION",
+      "question": "How does the solution reduce the number of tools?",
+      "answer": "Sentry and Conductor share one console and one software agent, so security and management run from a single place and fewer separate tools are needed."
+    },
+    {
+      "id": "L-036",
+      "bid": "B-2026-02",
+      "category": "SCALING_GROWTH",
+      "question": "How does pricing work as we grow?",
+      "answer": "Per-device pricing bands are agreed up front, so new sites can be added at a known price without a new negotiation."
+    },
+    {
+      "id": "L-037",
+      "bid": "B-2026-02",
+      "category": "IMPLEMENTATION",
+      "question": "What is the implementation plan?",
+      "answer": "Vantora Launch is a fixed-scope service that reaches full operation in 12 weeks in three stages: prepare, pilot and roll out. Each stage ends with a review the customer signs off."
+    },
+    {
+      "id": "L-038",
+      "bid": "B-2026-02",
+      "category": "REPORTING_COMPLIANCE",
+      "question": "What compliance reporting is provided?",
+      "answer": "Sentry includes report templates for common security standards, and reports can be scheduled. Sector-specific templates are added over time; where a template is not yet available we say so and agree a plan."
+    },
+    {
+      "id": "L-039",
+      "bid": "B-2026-05",
+      "category": "THREAT_DETECTION",
+      "question": "How does the solution detect and respond to threats, and how are detection models kept up to date?",
+      "answer": "Sentry watches endpoints, servers and cloud workloads and groups related alerts into a single case, so analysts triage one story and not a list. Models are updated monthly and learn from analyst feedback, which reduces false alarms over time. For Westmarch Logistics we tuned the first models during the pilot."
+    },
+    {
+      "id": "L-040",
+      "bid": "B-2026-05",
+      "category": "AUTOMATION",
+      "question": "How are patching and remediation automated?",
+      "answer": "Conductor patches and remediates automatically within rules the customer sets. Any change marked high-risk waits for a named person to approve it, and every action is logged."
+    },
+    {
+      "id": "L-041",
+      "bid": "B-2026-05",
+      "category": "SUPPORT_24X7",
+      "question": "What support is provided?",
+      "answer": "Vantora Assure provides support 24 hours a day, 7 days a week, with a 30 minute response target for critical incidents and a named service manager."
+    },
+    {
+      "id": "L-042",
+      "bid": "B-2026-05",
+      "category": "MOBILE",
+      "question": "Is there a mobile app?",
+      "answer": "There is no mobile app today. On-call staff use the web console in a phone browser. A mobile app for approvals is planned, and we do not commit to a date in a proposal."
+    },
+    {
+      "id": "L-043",
+      "bid": "B-2026-05",
+      "category": "DATA_RESIDENCY",
+      "question": "Where is data stored and processed?",
+      "answer": "Data and AI processing stay inside the customer's country, in the customer's data centre or an in-country cloud region. No security data is sent to another country for analysis."
+    },
+    {
+      "id": "L-044",
+      "bid": "B-2026-05",
+      "category": "TOOL_CONSOLIDATION",
+      "question": "How does the solution reduce the number of tools?",
+      "answer": "Sentry and Conductor share one console and one software agent, so security and management run from a single place and fewer separate tools are needed."
+    }
+  ]
+}
